@@ -24,6 +24,7 @@ int main()
     else
         printf("Altura abaixo da maxima.\n");
 
+    // locais diferentes da memória
     printf("%p %p %p\n", &x, &pessoa1, &(pessoa1->altura));
 
     return 0;
